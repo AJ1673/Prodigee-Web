@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Poppins";
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+a:hover{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar .logo{
+    background-color: rgb(32, 49, 100);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 49, 100);
+    padding: 20px;
+}
+
+.main-menu ul{
+    display: flex;
+}
+
+.main-menu ul li a{
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.btn{
+    background-color: rgb(0, 0, 231);
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    background: none;
+    position: absolute;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 10px;
+    right: 150px;
+    bottom: 80px;
+    top: 250px;
+}
+
+.media img{
+    max-width: 20px;
+}
+
+.media ul{
+    margin-top: 30px;
+    display: flex;
+}
+
+.media ul img{
+    margin-left: 20px;
+    background: none;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.clks{
+    margin-top: 30px;
+}
+
+.clks ul{
+    display: flex;
+}
+
+.clks ul li{
+    margin-left: 30px;
+}
+
+.pic{
+    max-width: 40px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.comment{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
